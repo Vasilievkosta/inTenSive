@@ -6,3 +6,14 @@ let passportWithAddress = {
         city: "LA"
     }
 };
+
+let copyPassortWithAddress = {
+	...passportWithAddress,
+	address: {
+		...passportWithAddress.address,
+		city: "Bobryisk"
+	}
+}
+
+console.log(passportWithAddress)
+console.log(copyPassortWithAddress)
