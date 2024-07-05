@@ -15,5 +15,5 @@ let copyPassortWithAddress = {
 	}
 }
 
-console.log(passportWithAddress)
-console.log(copyPassortWithAddress)
+console.log(passportWithAddress.address.city)
+console.log(copyPassortWithAddress.address.city)
